@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100px;
+    background-color: #000000;
+}
+a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            background-color: rgb(255, 255, 255);
+        }
+a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
