@@ -1,0 +1,41 @@
+button {
+    background-color: blue;
+    color: white;
+    transition: background 1s ease; /* duração e efeito */
+    padding: 100px 200px;
+}
+
+button:hover {
+    background: black;
+    transform: scale(1.2); /* aumenta 20% */
+}
+
+@keyframes piscar {
+    0% { opacity: 1;}
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+div {
+    animation: piscar 2s infinite;
+    background-color: tomato;
+    /* backround-color: green; 
+----animation: piscar 3s */
+}
+
+img:hover {
+    transform: rotate(100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg);
+    transition: transform 0.5s;
+}
+
+div:hover {
+    transform: translate(50px, 20px); /* x, y */
+}
+
+#div1{
+    background: linear-gradient(to right, red, yellow);
+}
+
+#div2{
+    background: radial-gradient(circle, blue, white);
+}
